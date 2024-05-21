@@ -7,6 +7,7 @@ from asyncio import run
 load_dotenv(".env")
 
 
+
 async def main(bot_token: str, chat_id: int, nasa_api_token: str, sleep_time: int):
     while True:
         try:
